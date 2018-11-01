@@ -1,0 +1,124 @@
+
+body{
+  color:#333;
+}
+
+p{
+  font-size:14px;
+  line-height: 1.429;
+}
+
+ul li{
+  font-size:14px;
+  list-style-type: square;
+}
+
+/*　表　*/
+table{
+  font-size: 14px;
+  border:1px solid #CCC;
+  border-collapse:collapse;
+  width:100%;
+}
+
+table th, table td{
+  border:1px solid #CCC;
+  padding:5px 10px;
+}
+
+table th{
+  background-color: #EEE;
+  text-align: left;
+}
+
+table td{
+  text-align: left;
+  font-weight: bold;
+}
+
+/*見出し*/
+.pageTitle{
+  font-size:26px;
+  background-color: #F2F3E5;
+  padding:5px 15px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.231;
+	font-weight:bold;
+}
+
+.heading-typeA{
+  font-size:18px;
+  color:#349FA6;
+  border-bottom: solid 1px #349FA6;
+  padding:5px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.333;
+	font-weight:bold;
+
+}
+
+.heading-typeB{
+  font-size:16px;
+  border-left:solid 5px #E3E4D9;
+  padding-left:10px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.375;
+	font-weight:bold;
+}
+
+.heading-typeC{
+  font-size:14px;
+  margin:0 0 10px 0;
+	padding:2px 8px;
+	border-width:0 0 0 5px;
+	border-color: #F9E281;
+	border-style:solid;
+	background:#F4C504;
+	color:#644602;
+	line-height:1.429;
+	font-weight:bold;
+}
+
+.articleDetailHead{
+  border-bottom:solid 3px #CCC;
+  margin-bottom:30px;
+  padding-bottom:15px;
+}
+
+.articleDetailFoot{
+  border-top:solid 3px #CCC;
+  margin-top:30px;
+  padding-top: 15px;
+}
+
+.articleDetailBody section{
+  margin:30px  0;
+}
+
+.creditUnit{
+  padding:10px;
+  border: solid 1px #CCC;
+}
+
+.creditUnit p {
+  font-size:12px;
+  line-height: 1.5;
+}
